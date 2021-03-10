@@ -3,6 +3,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: redis-commander-ingress
+  namespace: redisdb
   labels:
     app: redis-commander
   annotations:
