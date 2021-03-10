@@ -37,7 +37,7 @@ spec:
               path: /favicon.png
               port: 8081
             initialDelaySeconds: 10
-            timeoutSeconds: 5
+            timeoutSeconds: 6
           # resources:
           #   limits:
           #     cpu: "500m"
