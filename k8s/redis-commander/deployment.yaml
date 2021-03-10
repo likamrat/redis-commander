@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: redisdb
+  name: redis-commander
   annotations:
     # Tell Kubernetes to apply the AppArmor profile "runtime/default".
     # Note that this is ignored if the Kubernetes node is not running version 1.4 or greater.
