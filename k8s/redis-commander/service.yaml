@@ -1,9 +1,9 @@
 ---
 apiVersion: v1
 kind: Service
-namespace: redisdb
 metadata:
   name: redis-commander
+  namespace: redisdb
   labels:
     app: redis-commander
     tier: backend
